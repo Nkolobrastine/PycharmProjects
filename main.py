@@ -11,6 +11,9 @@ class ToDo (BaseModel):
     name: str
     description: str
 
+    class Config:
+        orm_mode = True
+
 
 app = FastAPI (title="ToDo App")
 db = SessionLocal ()

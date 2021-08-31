@@ -1,4 +1,3 @@
-from sqlalchemy.orm import Base
 from Database import Base
 from sqlalchemy import String, Text, Integer, Column,Boolean,ForeignKey
 
